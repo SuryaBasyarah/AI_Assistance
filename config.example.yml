@@ -1,0 +1,21 @@
+openai:
+  input_language: "id"
+  response_speech_language: "ja"
+  embedding_model: "text-embedding-3-small"
+sbv2:
+  base_url: "http://127.0.0.1:5000/health"
+  language: "JP"
+  default_style: "Neutral"
+  device_preference: "cpu"
+rvc:
+  base_url: "http://127.0.0.1:5200/health"
+  voices_root: "./voices"
+  selected_profile: "mizuki"
+  auto_refresh_on_start: true
+  default_f0_method: "rmvpe"
+  default_index_rate: 0.75
+  default_protect: 0.33
+ui:
+  show_japanese: true
+  show_indonesian_translation: true
+  show_romaji: false
